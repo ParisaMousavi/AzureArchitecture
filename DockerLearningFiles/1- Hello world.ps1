@@ -34,8 +34,13 @@ docker ps
 ## With Docker, scaling your application is a matter of spinning up new executables, not running heavy VM hosts.
 
 
-## Build the APP and Create a Docker Image
+## EX.1 Build the APP and Create a Docker Image
 docker build --tag=friendlyhello .
+
+## EX.2 Another Example for ASP.NET and all the code in Dockerfile will be executed one after another
+docker image build --tag webinar.app:v1
+
+
 
 ## Run the app, mapping your machine’s port 4000 to the container’s published port 80 using -p:
 docker run -p 4000:80 friendlyhello
@@ -44,7 +49,17 @@ docker run -p 4000:80 friendlyhello
 curl http://localhost:4000
 
 
-## Now let’s run the app in the background, in detached mode
+## EX.1 Now let’s run the app in the background, in detached mode
 docker run -d -p 4000:80 friendlyhello
+
+## EX.2
+docker container run --detach --publish 80 webinar-app:v1
+
+
+## Clean the powershell
+cls
+
+## Get whole bunch of details, including its virtual IP
+docker container [Container ID]
 
 
