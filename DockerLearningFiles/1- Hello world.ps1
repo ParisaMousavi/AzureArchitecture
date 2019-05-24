@@ -40,6 +40,8 @@ docker build --tag=friendlyhello .
 ## EX.2 Another Example for ASP.NET and all the code in Dockerfile will be executed one after another
 docker image build --tag webinar.app:v1
 
+## We can specify the Dockerfile path
+docker image build --tag webinar-app:v2 --file .\docker\web\Dokcerfile
 
 
 ## Run the app, mapping your machine’s port 4000 to the container’s published port 80 using -p:
