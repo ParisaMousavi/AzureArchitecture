@@ -37,7 +37,8 @@ docker ps
 ## EX.1 Build the APP and Create a Docker Image
 docker build --tag=friendlyhello .
 
-## EX.2 Another Example for ASP.NET and all the code in Dockerfile will be executed one after another
+## EX.100 Another Example for ASP.NET and all the code in Dockerfile will be executed one after another
+## It's important to be in the root file in host
 docker image build --tag webinar.app:v1
 
 ## We can specify the Dockerfile path
@@ -54,7 +55,7 @@ curl http://localhost:4000
 ## EX.1 Now let’s run the app in the background, in detached mode
 docker run -d -p 4000:80 friendlyhello
 
-## EX.2
+## EX.100
 docker container run --detach --publish 80 webinar-app:v1
 
 
