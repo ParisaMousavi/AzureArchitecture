@@ -39,11 +39,11 @@ docker build --tag=friendlyhello .
 
 ## EX.100 Another Example for ASP.NET and all the code in Dockerfile will be executed one after another
 ## It's important to be in the root file in host
-docker image build --tag webinar.app:v1
+docker image build --tag webinar.app:v1 .
 
 ## We can specify the Dockerfile path
-docker image build --tag webinar-app:v2 --file .\docker\web\Dokcerfile
-
+docker image build --tag webinar-app:v2 --file .\docker\web\Dockerfile .
+docker image build -t webinar-db:v1 -f .\docker\db\Dockerfile .
 
 ## Run the app, mapping your machine’s port 4000 to the container’s published port 80 using -p:
 docker run -p 4000:80 friendlyhello
@@ -64,5 +64,6 @@ cls
 
 ## Get whole bunch of details, including its virtual IP
 docker container [Container ID]
+
 
 

@@ -14,7 +14,10 @@ ENV ACCEPT_EULA="Y" `
     DATA_PATH="C:\data" `
     sa_password="DockerCon!!!"
 
+## this must be outside the container
+## and user must set that up at runtime
 VOLUME ${DATA_PATH}
+## folder in a target path inside the container
 WORKDIR C:\init
 
 COPY docker\db\Initialize-Database.ps1 .
