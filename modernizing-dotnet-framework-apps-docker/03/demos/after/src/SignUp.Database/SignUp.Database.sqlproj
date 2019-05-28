@@ -8,7 +8,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{136d784f-bf11-4f7c-899d-a81b49c9cd91}</ProjectGuid>
-    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql120DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
     </RootPath>
@@ -62,6 +62,7 @@
     <Folder Include="Schema Objects" />
     <Folder Include="Scripts" />
     <Folder Include="Scripts\PostDeployment" />
+    <Folder Include="Snapshots" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\Script.PostDeployment.sql" />
@@ -75,5 +76,8 @@
     <None Include="Scripts\PostDeployment\InsertCountries.sql" />
     <None Include="Scripts\PostDeployment\InsertRoles.sql" />
     <None Include="Scripts\PostDeployment\InsertInterests.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Snapshots\SignUp.Database_20190528_11-10-35.dacpac" />
   </ItemGroup>
 </Project>

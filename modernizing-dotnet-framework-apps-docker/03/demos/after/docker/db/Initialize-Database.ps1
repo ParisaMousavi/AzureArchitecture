@@ -5,6 +5,14 @@ param(
     [Parameter(Mandatory=$true)]
     [string] $data_path)
 
+
+#------------------------------------------------------------------
+#  This file is a replace for standard initializer
+#  It will check the existance of a database on the container
+#  If it's not exist then it will be created according to the
+#  data and log file.
+#------------------------------------------------------------------
+
 # start the service
 Write-Verbose 'Starting SQL Server'
 Start-Service MSSQL`$SQLEXPRESS
@@ -15,9 +23,12 @@ if ($sa_password -ne "_") {
     Invoke-SqlCmd -Query $sqlcmd -ServerInstance ".\SQLEXPRESS" 
 }
 
-## location of data and log file
+## location of data and log file in container
 $mdfPath = "$data_path\SignUp_Primary.mdf"
+echo $mdfPath
 $ldfPath = "$data_path\SignUp_Primary.ldf"
+echo $ldfPath
+
 
 # attach data files if they exist: 
 if ((Test-Path $mdfPath) -eq $true) {

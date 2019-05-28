@@ -1,0 +1,32 @@
+version: "3"
+services:
+  web:
+    # replace username/repo:tag with your name and image details
+    # Pull the image we uploaded in step 2 from the registry.
+    image: parisadocker/get-started:part2
+    deploy:
+    # Run 5 instances of that image as a service called web, 
+    #limiting each one to use, at most, 10% of a single core of CPU time 
+    # (this could also be e.g. “1.5” to mean 1 and half core for each), 
+    # and 50MB of RAM.
+      replicas: 7
+      resources:
+        limits:
+          cpus: "0.1"
+          memory: 50M
+      restart_policy:
+      # Immediately restart containers if one fails.
+        condition: on-failure
+    ports:
+    # Map port 4000 on the host to web’s port 80.
+    # Instruct web’s containers to share port 80 via a 
+    # load-balanced network called webnet. (Internally, 
+    # the containers themselves publish to web’s port 80 at an 
+    # ephemeral port.)
+      - "4000:80"
+    networks:
+    # Define the webnet network with the default 
+    # settings (which is a load-balanced overlay network).
+      - webnet
+networks:
+  webnet:

@@ -10,6 +10,8 @@ RUN msbuild SignUp.Database.sqlproj `
 # db image
 FROM microsoft/mssql-server-windows-express
 
+
+## these are the environment variable on the created container
 ENV ACCEPT_EULA="Y" `
     DATA_PATH="C:\data" `
     sa_password="DockerCon!!!"
@@ -23,4 +25,5 @@ WORKDIR C:\init
 COPY docker\db\Initialize-Database.ps1 .
 CMD powershell ./Initialize-Database.ps1 -sa_password $env:sa_password -data_path $env:data_path -Verbose
 
-COPY --from=builder C:\src\SignUp.Database\bin\Debug\SignUp.Database.dacpac .
+COPY --from=builder C:\src\SignUp.Database\Snapshots\SignUp.Database_20190528_11-10-35.dacpac .
+
