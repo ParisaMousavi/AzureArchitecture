@@ -13,12 +13,12 @@ If we don't remove the *dateFormat* and *timeFormat* from attributes, the return
 
 This is the powershell command for creeating a stream analytics job input via powershell:
 
-New-AzStreamAnalyticsInput -JobName JobForPowershell -ResourceGroupName ServiceBusDemoParisa -Name InputfromBlob -File StreamAnalyticsBlobInputStream.json
+    New-AzStreamAnalyticsInput -JobName JobForPowershell -ResourceGroupName ServiceBusDemoParisa -Name InputfromBlob -File StreamAnalyticsBlobInputStream.json
 
  
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzOTEyODA5LDEzNDg0NjM0OTksMTM0OD
-Q2MzQ5OV19
+eyJoaXN0b3J5IjpbLTkyMzI3NjQzOSwxMzQ4NDYzNDk5LDEzND
+g0NjM0OTldfQ==
 -->
