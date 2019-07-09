@@ -1,0 +1,26 @@
+﻿{
+   "Name": "SampleInputFromPowershell",
+   "properties": {
+      "type": "stream",
+      "datasource": {
+         "type": "Microsoft.Storage/Blob",
+         "properties": {
+            "storageAccounts": [
+               {
+                  "accountName": "parisademostorage",
+                  "accountKey": "KQ8M56Qv3TcOVNVM/ZczL47HpHE1K3JU+wnY15PietRY/2ulhuoGbkKmgmR6S5g6m+51HQ4Ns/fCnkae14wWcA=="
+               }
+            ],
+            "container": "parisademocontainer",  
+            "pathPattern":""
+         }
+      },
+      "serialization": {
+         "type": "JSON",
+         "properties": {
+            "encoding": "UTF8",
+            "format": ""
+         }
+      }
+   }
+}

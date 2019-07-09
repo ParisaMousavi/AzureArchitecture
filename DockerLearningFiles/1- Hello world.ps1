@@ -58,7 +58,7 @@ docker run -d -p 4000:80 friendlyhello
 ## -P -> --publish-all
 ## -p -> --publish list 
 docker container run -d -P webinar-db:v1
-docker container inspect d90f7496f80faa88a4f90fbded68f829e528b9551a7b1b744cabadd49c6e4d6f
+docker container inspect 22ba30e49eda94ddcf27ef7ff43fcd1dd53084aa818daf5acf142ed3f0f355b6
 
 ## EX.100
 docker container run --detach --publish 80 webinar-app:v1
@@ -139,6 +139,27 @@ docker stack rm getstartedlab
 
 ## Take down the swarm
 docker swarm leave --force
+
+
+docker run --rm -it myimage /bin/sh
+
+docker exec -it cb7092f64bb1 /bin/bash
+
+
+## Create VMs on local machine
+docker-machine create --driver virtualbox myvm1
+docker-machine create --driver virtualbox myvm2
+
+
+docker-machine create -d hyperv --hyperv-virtual-switch "myswitch" myvm1
+docker-machine create -d hyperv --hyperv-virtual-switch "myswitch" myvm2
+
+## for deleting a virtual machine
+docker-machine rm -f -y myvm2
+
+
+docker-machine ls
+
 
 
 
