@@ -12,7 +12,11 @@ How to add input from Blob storage to Azure stream analytics [Via Powershell](ht
 Resources:
 [https://github.com/ParisaMousavi/AzureArchitecture/blob/master/AzureStreamAnalytics.md](https://github.com/ParisaMousavi/AzureArchitecture/blob/master/AzureStreamAnalytics.md)
 [https://docs.microsoft.com/en-us/powershell/module/az.streamanalytics/new-azstreamanalyticsinput?view=azps-2.4.0](https://docs.microsoft.com/en-us/powershell/module/az.streamanalytics/new-azstreamanalyticsinput?view=azps-2.4.0)
+[https://docs.microsoft.com/en-us/rest/api/streamanalytics/stream-analytics-transformation?redirectedfrom=MSDN](https://docs.microsoft.com/en-us/rest/api/streamanalytics/stream-analytics-transformation?redirectedfrom=MSDN)
+[https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-monitor-and-manage-jobs-use-powershell](https://docs.microsoft.com/en-us/azure/stream-analytics/stream-analytics-monitor-and-manage-jobs-use-powershell)
+[https://docs.microsoft.com/en-us/rest/api/streamanalytics/stream-analytics-input](https://docs.microsoft.com/en-us/rest/api/streamanalytics/stream-analytics-input)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MDM4NDE5NCwzMTIwODYxODEsLTQ0Nj
-M3NTM5MF19
+eyJoaXN0b3J5IjpbNDMzODA3OTY5LDMxMjA4NjE4MSwtNDQ2Mz
+c1MzkwXX0=
 -->
