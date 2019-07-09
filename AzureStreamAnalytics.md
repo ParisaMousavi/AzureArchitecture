@@ -12,12 +12,13 @@ If *pathpattern* doesn't have a value, we must uses "". Therefore the next two a
 If we don't remove the *dateFormat* and *timeFormat* from attributes, the return value in Powershell is always an error because there is no partitionKey in pathpattern to be repllaced with *dateformat* and *timeformat*.
 
 This is the powershell command for creeating a stream analytics job input via powershell:
-    New-AzStreamAnalyticsInput -JobName JobForPowershell -ResourceGroupName ServiceBusDemoParisa -Name InputfromBlob -File StreamAnalyticsBlobInputStream.json
+
+New-AzStreamAnalyticsInput -JobName JobForPowershell -ResourceGroupName ServiceBusDemoParisa -Name InputfromBlob -File StreamAnalyticsBlobInputStream.json
 
  
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTc3NDQ2NDUsMTM0ODQ2MzQ5OSwxMz
-Q4NDYzNDk5XX0=
+eyJoaXN0b3J5IjpbMTMzOTEyODA5LDEzNDg0NjM0OTksMTM0OD
+Q2MzQ5OV19
 -->
