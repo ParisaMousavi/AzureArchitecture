@@ -8,9 +8,11 @@ https://docs.microsoft.com/en-us/learn/modules/design-for-security-in-azure/1-in
 
 How to add input from Blob storage to Azure stream analytics [Via Powershell](https://github.com/ParisaMousavi/AzureArchitecture/blob/master/AzureStreamAnalytics.md)
 
-[https://github.com/ParisaMousavi/AzureArchitecture/blob/master/AzureStreamAnalytics.md](https://github.com/ParisaMousavi/AzureArchitecture/blob/master/AzureStreamAnalytics.md)
 
+Resources:
+[https://github.com/ParisaMousavi/AzureArchitecture/blob/master/AzureStreamAnalytics.md](https://github.com/ParisaMousavi/AzureArchitecture/blob/master/AzureStreamAnalytics.md)
+[https://docs.microsoft.com/en-us/powershell/module/az.streamanalytics/new-azstreamanalyticsinput?view=azps-2.4.0](https://docs.microsoft.com/en-us/powershell/module/az.streamanalytics/new-azstreamanalyticsinput?view=azps-2.4.0)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MTI1ODYyMiwzMTIwODYxODEsLTQ0Nj
+eyJoaXN0b3J5IjpbLTg3MDM4NDE5NCwzMTIwODYxODEsLTQ0Nj
 M3NTM5MF19
 -->
