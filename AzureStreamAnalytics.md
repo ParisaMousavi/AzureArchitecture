@@ -9,9 +9,15 @@ For example
     "timeFormat":"HH"
 
 If pathpattern doesn't have a value, we must uses "". Therefore the next two attributes are not neccessary.
-If we don't remove the dateFormat and timeFormat from attributes, the return value in Powershell is always an error because there is no partitionKey in pathpattern to be repllac
+If we don't remove the dateFormat and timeFormat from attributes, the return value in Powershell is always an error because there is no partitionKey in pathpattern to be repllaced with dateformat and timeformat.
+
+This is the powershell command for creeating a stream analytics job input via 
+    New-AzStreamAnalyticsInput -JobName JobForPowershell -ResourceGroupName ServiceBusDemoParisa -Name InputfromBlob -File StreamAnalyticsBlobInputStream.json
+
+ 
+
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MjMyOTg5MywxMzQ4NDYzNDk5LDEzND
-g0NjM0OTldfQ==
+eyJoaXN0b3J5IjpbLTEwNjc1MDU5NDQsMTM0ODQ2MzQ5OSwxMz
+Q4NDYzNDk5XX0=
 -->
