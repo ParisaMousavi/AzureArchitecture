@@ -5,7 +5,7 @@ In JSON file development for defining/Creating a Azure stream Input, one thing m
 For example
 
     "pathPattern":"test-blob_2324jklj/PageViews/{date}/{time}",
-    "dateFormat":"yyyy-MM-DD", 
+    "dateFormat":"yyyy-MM-dd", 
     "timeFormat":"HH"
 
 If *pathpattern* doesn't have a value, we must uses "". Therefore the next two attributes are not neccessary.
