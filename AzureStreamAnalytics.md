@@ -2,10 +2,10 @@
 
 Because of App Version problem I tried to add an input stream to azure stream analytics.
 
-test
+
 
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNzM0OTA5MSwxMzQ4NDYzNDk5XX0=
+eyJoaXN0b3J5IjpbMTM0ODQ2MzQ5OSwxMzQ4NDYzNDk5XX0=
 -->
