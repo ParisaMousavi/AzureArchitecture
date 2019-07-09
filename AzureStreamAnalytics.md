@@ -5,11 +5,14 @@ In JSON file development for defining/Creating a Azure stream Input, one thing m
 For example
 
     "pathPattern":"test-blob_2324jklj/PageViews/{date}/{time}",
-    "dateFormat":"YYYY-MM-DD",
+    "dateFormat":"yyyy-MM-DD", 
     "timeFormat":"HH"
 
 If *pathpattern* doesn't have a value, we must uses "". Therefore the next two attributes are not neccessary.
 If we don't remove the *dateFormat* and *timeFormat* from attributes, the return value in Powershell is always an error because there is no partitionKey in pathpattern to be repllaced with *dateformat* and *timeformat*.
+
+Only we should pay attention to ISO 8601 format for "2019-05-30" the dateFormt must be "yyyy-MM-dd".
+
 
 This is the powershell command for creeating a stream analytics job input via powershell:
 
