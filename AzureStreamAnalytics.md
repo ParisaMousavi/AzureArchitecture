@@ -9,9 +9,9 @@ For example
     "timeFormat":"HH"
 
 If pathpattern doesn't have a value, we must uses "". Therefore the next two attributes are not neccessary.
-
+If we don't remove the dateFormat and timeFormat from attributes, the return value in Powershell is always an error because there is no partitionKey in pathpattern to be repllac
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMzcyODUxLDEzNDg0NjM0OTksMTM0OD
-Q2MzQ5OV19
+eyJoaXN0b3J5IjpbMTU4MjMyOTg5MywxMzQ4NDYzNDk5LDEzND
+g0NjM0OTldfQ==
 -->
