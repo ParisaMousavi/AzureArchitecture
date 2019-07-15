@@ -22,6 +22,6 @@ This is the powershell command for creeating a stream analytics job input via po
 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMzI3NjQzOSwxMzQ4NDYzNDk5LDEzND
-g0NjM0OTldfQ==
+eyJoaXN0b3J5IjpbLTE1OTk2MzkyNDYsLTkyMzI3NjQzOSwxMz
+Q4NDYzNDk5LDEzNDg0NjM0OTldfQ==
 -->
