@@ -1,0 +1,5 @@
+https://autologon.microsoftazuread-sso.com
+
+https://aadg.windows.net.nsatc.net
+
+

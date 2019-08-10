@@ -1,0 +1,5 @@
+Enable-ADOptionalFeature -Identity 'Recycle Bin Feature' -Scope ForestOrConfigurationSet -Target 'contoso.local' -Server DC-1
+Get-AzureADUser
+Get-AzureADDomain
+Get-AzureADTenantDetail
+Disconnect-AzureAD
