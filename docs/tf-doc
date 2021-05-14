@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-14T06:39:14.590Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="cpmC9fX_FiyxVgFeP9GG" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-14T06:44:45.433Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="2gNz05qqq0MH0yPZp57t" version="14.6.11" type="github">
   <diagram id="DGVM0R1MDbrpiMWXlDLL" name="Page-1">
     <mxGraphModel dx="3076" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="VKCuRvJYEcw71w1oPSqw-7" value="Production (for enterprise in fratrastructure)" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#d6b656;fillColor=none;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="430" y="280" width="390" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="VKCuRvJYEcw71w1oPSqw-6" value="Main&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#d6b656;fillColor=none;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="VKCuRvJYEcw71w1oPSqw-6" value="Main&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#d6b656;verticalAlign=top;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-110" y="270" width="390" height="680" as="geometry" />
         </mxCell>
         <mxCell id="VKCuRvJYEcw71w1oPSqw-16" value="Vnet peering" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VKCuRvJYEcw71w1oPSqw-2" target="VKCuRvJYEcw71w1oPSqw-3">
