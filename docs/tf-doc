@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-14T06:09:30.439Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="drwLUsvUWLXnnq3Mpt1T" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-14T06:22:31.962Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="B1jpeoPUAfuYJn95LGzc" version="14.6.11" type="github">
   <diagram id="DGVM0R1MDbrpiMWXlDLL" name="Page-1">
-    <mxGraphModel dx="3076" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3076" dy="1973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -87,6 +87,9 @@
         </mxCell>
         <mxCell id="VKCuRvJYEcw71w1oPSqw-34" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Subscriptions.svg;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1200" y="570" width="24.79" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VKCuRvJYEcw71w1oPSqw-35" value="&lt;h1&gt;Terraform Statefiles storage&lt;/h1&gt;&lt;p&gt;- RA-GZRS replication&lt;/p&gt;&lt;p&gt;- Soft delete for blobs (14 days)&lt;/p&gt;&lt;p&gt;- Versioning for blobs&lt;/p&gt;&lt;p&gt;- Blob change feed&lt;/p&gt;&lt;p&gt;- Secure Transfer required enabled&lt;/p&gt;&lt;p&gt;- Allow shared key access disabled&lt;/p&gt;&lt;p&gt;- Allow blob public access disabled&lt;/p&gt;&lt;p&gt;- Blob access tier Hot&lt;/p&gt;" style="text;html=1;strokeColor=#36393d;fillColor=#eeeeee;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="-50" width="410" height="270" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
