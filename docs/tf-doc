@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-05-14T05:30:42.728Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="dsxjrrwaHL0689-z-r0m" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-14T05:32:19.171Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="MaUF7NacjkOhTvEIIjGg" version="14.6.11" type="github">
   <diagram id="DGVM0R1MDbrpiMWXlDLL" name="Page-1">
     <mxGraphModel dx="2249" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VKCuRvJYEcw71w1oPSqw-20" value="On-prem" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#9673a6;fillColor=none;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="585" width="210" height="245" as="geometry" />
+        </mxCell>
         <mxCell id="VKCuRvJYEcw71w1oPSqw-11" value="Development" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#d6b656;fillColor=none;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="430" y="600" width="390" height="270" as="geometry" />
         </mxCell>
@@ -50,10 +53,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VKCuRvJYEcw71w1oPSqw-13" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.enterprise;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="-90" y="650" width="30" height="50" as="geometry" />
+          <mxGeometry x="-110" y="616.67" width="50" height="83.33" as="geometry" />
         </mxCell>
         <mxCell id="VKCuRvJYEcw71w1oPSqw-18" value="Statefiles storage" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/BlobBlock.svg;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="20" y="310" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="VKCuRvJYEcw71w1oPSqw-19" value="Bitbucket" style="image;image=img/lib/atlassian/Bitbucket_Logo.svg;fillColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-117" y="720" width="57" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
