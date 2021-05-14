@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-05-14T05:32:47.739Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="ds87UKTGeBjW6dHyxHyQ" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-14T05:34:52.256Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="DZ61hRS_Uee__9wTNMUF" version="14.6.11" type="github">
   <diagram id="DGVM0R1MDbrpiMWXlDLL" name="Page-1">
     <mxGraphModel dx="2249" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="VKCuRvJYEcw71w1oPSqw-20" value="On-prem" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#9673a6;fillColor=none;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="-200" y="585" width="210" height="245" as="geometry" />
+          <mxGeometry x="-200" y="585" width="210" height="445" as="geometry" />
         </mxCell>
         <mxCell id="VKCuRvJYEcw71w1oPSqw-11" value="Development" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#d6b656;fillColor=none;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="430" y="600" width="390" height="270" as="geometry" />
@@ -60,6 +60,9 @@
         </mxCell>
         <mxCell id="VKCuRvJYEcw71w1oPSqw-19" value="Bitbucket&#xa;for Terraform iac" style="image;image=img/lib/atlassian/Bitbucket_Logo.svg;fillColor=none;align=left;" vertex="1" parent="1">
           <mxGeometry x="-117" y="720" width="57" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VKCuRvJYEcw71w1oPSqw-21" value="Artifact repository&lt;br&gt;Sonatype Nexus" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;align=center;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="820" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
