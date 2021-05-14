@@ -1,11 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2021-05-14T05:27:37.633Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="dh3HqEx6qU1jkEkMFJxx" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-14T05:28:56.295Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="mJ2W5aP3OqeDwwp9POgp" version="14.6.11" type="github">
   <diagram id="DGVM0R1MDbrpiMWXlDLL" name="Page-1">
     <mxGraphModel dx="2249" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VKCuRvJYEcw71w1oPSqw-11" value="Development" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#d6b656;fillColor=none;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="430" y="600" width="390" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="VKCuRvJYEcw71w1oPSqw-7" value="Production" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#d6b656;fillColor=none;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="430" y="280" width="390" height="270" as="geometry" />
+        </mxCell>
         <mxCell id="VKCuRvJYEcw71w1oPSqw-6" value="Main&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#d6b656;fillColor=none;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="-110" y="270" width="390" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="VKCuRvJYEcw71w1oPSqw-16" value="Vnet peering" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VKCuRvJYEcw71w1oPSqw-2" target="VKCuRvJYEcw71w1oPSqw-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VKCuRvJYEcw71w1oPSqw-17" value="Vnet peering" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VKCuRvJYEcw71w1oPSqw-2" target="VKCuRvJYEcw71w1oPSqw-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VKCuRvJYEcw71w1oPSqw-2" value="Hub" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=none;verticalAlign=top;align=left;" vertex="1" parent="1">
           <mxGeometry x="20" y="390" width="210" height="110" as="geometry" />
@@ -22,9 +34,6 @@
         <mxCell id="VKCuRvJYEcw71w1oPSqw-5" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Subscriptions.svg;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="240" y="240" width="24.79" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="VKCuRvJYEcw71w1oPSqw-7" value="Production" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#d6b656;fillColor=none;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="430" y="280" width="390" height="270" as="geometry" />
-        </mxCell>
         <mxCell id="VKCuRvJYEcw71w1oPSqw-8" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Subscriptions.svg;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="780" y="250" width="24.79" height="40" as="geometry" />
         </mxCell>
@@ -34,11 +43,14 @@
         <mxCell id="VKCuRvJYEcw71w1oPSqw-10" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_network;pointerEvents=1;" vertex="1" parent="1">
           <mxGeometry x="640" y="810" width="50" height="27.500000000000004" as="geometry" />
         </mxCell>
-        <mxCell id="VKCuRvJYEcw71w1oPSqw-11" value="Development" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#d6b656;fillColor=none;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="430" y="600" width="390" height="270" as="geometry" />
-        </mxCell>
         <mxCell id="VKCuRvJYEcw71w1oPSqw-12" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Subscriptions.svg;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="780" y="570" width="24.79" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VKCuRvJYEcw71w1oPSqw-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VKCuRvJYEcw71w1oPSqw-13" target="VKCuRvJYEcw71w1oPSqw-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VKCuRvJYEcw71w1oPSqw-13" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.enterprise;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="650" width="30" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
