@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-14T05:39:28.734Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="IAvUT2uW-9d1C73h9WdV" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-14T05:43:45.303Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="oUcSgp0-xpAQOh6883mI" version="14.6.11" type="github">
   <diagram id="DGVM0R1MDbrpiMWXlDLL" name="Page-1">
-    <mxGraphModel dx="2249" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3076" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -72,6 +72,9 @@
         </mxCell>
         <mxCell id="VKCuRvJYEcw71w1oPSqw-23" value="" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.nic;" vertex="1" parent="1">
           <mxGeometry x="62.5" y="416" width="45" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VKCuRvJYEcw71w1oPSqw-26" value="&lt;h1&gt;Terraform deployment&lt;/h1&gt;&lt;p&gt;- IaC Repository located on-prem&lt;/p&gt;&lt;p&gt;- Terraform statefiles are saved in a storage in main subscription&lt;/p&gt;&lt;p&gt;- Pipeline Service Principal deployes the resources&lt;/p&gt;" style="text;html=1;strokeColor=#36393d;fillColor=#eeeeee;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-870" y="450" width="410" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
