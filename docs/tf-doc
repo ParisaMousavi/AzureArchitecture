@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-14T05:43:45.303Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="oUcSgp0-xpAQOh6883mI" version="14.6.11" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-14T05:45:31.572Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="5sLINNUZ-SBzdkdmXuTc" version="14.6.11" type="github">
   <diagram id="DGVM0R1MDbrpiMWXlDLL" name="Page-1">
     <mxGraphModel dx="3076" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,10 +7,10 @@
         <mxCell id="VKCuRvJYEcw71w1oPSqw-20" value="On-prem" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#9673a6;fillColor=none;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="-455" y="281.25" width="210" height="668.75" as="geometry" />
         </mxCell>
-        <mxCell id="VKCuRvJYEcw71w1oPSqw-11" value="Development" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#d6b656;fillColor=none;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="VKCuRvJYEcw71w1oPSqw-11" value="Development (for enterprise in fratrastructure)" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#d6b656;fillColor=none;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="430" y="600" width="390" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="VKCuRvJYEcw71w1oPSqw-7" value="Production" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#d6b656;fillColor=none;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="VKCuRvJYEcw71w1oPSqw-7" value="Production (for enterprise in fratrastructure)" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#d6b656;fillColor=none;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="430" y="280" width="390" height="270" as="geometry" />
         </mxCell>
         <mxCell id="VKCuRvJYEcw71w1oPSqw-6" value="Main&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;align=left;strokeColor=#d6b656;fillColor=none;verticalAlign=top;" vertex="1" parent="1">
